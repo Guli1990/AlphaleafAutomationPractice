@@ -17,4 +17,10 @@ public class JSExecutionTest extends TestBase {
         driver.executeScript("arguments[0].setAttribute('style','border:3px solid red');", bannerElement);
         pausefor(3);
     }
+
+    @Test
+    public void testCaseTwo(){
+        System.out.println("git branch is actually easy");
+        System.out.println("branch is separate version of project files and folders");
+    }
 }
