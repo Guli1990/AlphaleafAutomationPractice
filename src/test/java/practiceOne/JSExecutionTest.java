@@ -16,5 +16,9 @@ public class JSExecutionTest extends TestBase {
         JavascriptExecutor jsExecutor = driver;
         driver.executeScript("arguments[0].setAttribute('style','border:3px solid red');", bannerElement);
         pausefor(3);
+
+        System.out.println("here is the new text added for branch testing");
     }
+
+
 }
